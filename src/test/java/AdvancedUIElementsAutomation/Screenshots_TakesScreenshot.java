@@ -32,7 +32,7 @@ public class Screenshots_TakesScreenshot {
             File sourceFile = screenshot.getScreenshotAs(OutputType.FILE);
 
             // Destination for saving the screenshot
-            File destinationFile = new File("C:\\Users\\Anto\\eclipse-workspace\\SeleniumTraining\\screenshots\\screenshot.png");
+            File destinationFile = new File("screenshots/screenshot.png");
 
             // Copy file to the destination (ensure directory exists)
             FileHandler.copy(sourceFile, destinationFile); 

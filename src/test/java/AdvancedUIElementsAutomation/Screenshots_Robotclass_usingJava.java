@@ -53,7 +53,7 @@ public class Screenshots_Robotclass_usingJava {
 			BufferedImage screenCapture =   robot.createScreenCapture(screenRect);
 
 			// Save the screenshot to a file
-			File destinationFile = new File("C:\\Users\\Anto\\eclipse-workspace\\SeleniumTraining\\screenshots/robot_screenshot.png");
+			File destinationFile = new File("screenshots/robot_screenshot.png");
 			ImageIO.write(screenCapture, "png", destinationFile);
 
 			System.out.println("Screenshot saved successfully at: " + destinationFile.getAbsolutePath());
